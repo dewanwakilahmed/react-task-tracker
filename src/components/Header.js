@@ -4,7 +4,8 @@ const Header = ({ title }) => {
   return (
     <header>
       {/* <h1 style={{ color: "red", backgroundColor: "black" }}>{title}</h1>  */}
-      <h1 style={headingStyle}>{title}</h1>
+      {/* <h1 style={headingStyle}>{title}</h1> */}
+      <h1>{title}</h1>
     </header>
   );
 };
@@ -19,9 +20,9 @@ Header.propTypes = {
 };
 
 // CSS in JS
-const headingStyle = {
-  color: "white",
-  backgroundColor: "blue",
-};
+// const headingStyle = {
+//   color: "white",
+//   backgroundColor: "blue",
+// };
 
 export default Header;
